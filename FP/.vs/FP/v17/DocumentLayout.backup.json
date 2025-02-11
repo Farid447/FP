@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Farid\\Desktop\\FP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\dtos\\stadium\\stadiumupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\dtos\\stadium\\stadiumupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\dtos\\stadium\\stadiumcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\dtos\\stadium\\stadiumcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|c:\\users\\farid\\desktop\\fp\\fp.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|solutionrelative:fp.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|c:\\users\\farid\\desktop\\fp\\fp.core\\repositories2\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|solutionrelative:fp.core\\repositories2\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|c:\\users\\farid\\desktop\\fp\\fp.core\\entities\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|solutionrelative:fp.core\\entities\\stadium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A4ABF6-8BC6-4B19-B794-497A73270743}|FP.DAL\\FP.DAL.csproj|c:\\users\\farid\\desktop\\fp\\fp.dal\\configurations\\stadiumconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A4ABF6-8BC6-4B19-B794-497A73270743}|FP.DAL\\FP.DAL.csproj|solutionrelative:fp.dal\\configurations\\stadiumconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\dtos\\user\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\dtos\\user\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A4ABF6-8BC6-4B19-B794-497A73270743}|FP.DAL\\FP.DAL.csproj|c:\\users\\farid\\desktop\\fp\\fp.dal\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A4ABF6-8BC6-4B19-B794-497A73270743}|FP.DAL\\FP.DAL.csproj|solutionrelative:fp.dal\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|c:\\users\\farid\\desktop\\fp\\fp.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D03DC18-B13A-4210-8F73-07292D7D1762}|FP.Core\\FP.Core.csproj|solutionrelative:fp.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\dtos\\reservation\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\dtos\\reservation\\reservationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\dtos\\reservation\\reservationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\dtos\\reservation\\reservationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Repositories2\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "FP.Core\\Repositories2\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Repositories2\\IGenericRepository.cs",
+              "RelativeToolTip": "FP.Core\\Repositories2\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T16:34:00.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "FP.Core\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "FP.Core\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T16:32:57.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StadiumConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\Configurations\\StadiumConfiguration.cs",
+              "RelativeDocumentMoniker": "FP.DAL\\Configurations\\StadiumConfiguration.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\Configurations\\StadiumConfiguration.cs",
+              "RelativeToolTip": "FP.DAL\\Configurations\\StadiumConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:28:05.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stadium.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Entities\\Stadium.cs",
+              "RelativeDocumentMoniker": "FP.Core\\Entities\\Stadium.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Entities\\Stadium.cs",
+              "RelativeToolTip": "FP.Core\\Entities\\Stadium.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:21:33.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "FP.DAL\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "FP.DAL\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:04:52.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FP.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\Entities\\User.cs",
+              "RelativeToolTip": "FP.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:04:48.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\User\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Dtos\\User\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\User\\RegisterDto.cs",
+              "RelativeToolTip": "FP.BL\\Dtos\\User\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:01:33.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\User\\LoginDto.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Dtos\\User\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\User\\LoginDto.cs",
+              "RelativeToolTip": "FP.BL\\Dtos\\User\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:01:15.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StadiumCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Stadium\\StadiumCreateDto.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Dtos\\Stadium\\StadiumCreateDto.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Stadium\\StadiumCreateDto.cs",
+              "RelativeToolTip": "FP.BL\\Dtos\\Stadium\\StadiumCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:01:02.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StadiumUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Stadium\\StadiumUpdateDto.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Dtos\\Stadium\\StadiumUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Stadium\\StadiumUpdateDto.cs",
+              "RelativeToolTip": "FP.BL\\Dtos\\Stadium\\StadiumUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:00:53.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReservationCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Reservation\\ReservationCreateDto.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Dtos\\Reservation\\ReservationCreateDto.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Reservation\\ReservationCreateDto.cs",
+              "RelativeToolTip": "FP.BL\\Dtos\\Reservation\\ReservationCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:00:24.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReservationUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Reservation\\ReservationUpdateDto.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Dtos\\Reservation\\ReservationUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Dtos\\Reservation\\ReservationUpdateDto.cs",
+              "RelativeToolTip": "FP.BL\\Dtos\\Reservation\\ReservationUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:00:11.559Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

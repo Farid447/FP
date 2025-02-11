@@ -1,0 +1,5 @@
+C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.csproj.AssemblyReference.cache
+C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.AssemblyInfoInputs.cache
+C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.AssemblyInfo.cs
+C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.csproj.CoreCompileInputs.cache
