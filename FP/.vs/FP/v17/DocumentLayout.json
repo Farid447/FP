@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Farid\\Desktop\\FP\\",
+  "WorkspaceRootPath": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\services\\implements\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\services\\implements\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\services\\implements\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp\\fp.bl\\profiles\\stadiumprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\profiles\\stadiumprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\profiles\\stadiumprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,28 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "FP.BL\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\ServiceRegistration.cs",
+              "RelativeToolTip": "FP.BL\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:03:58.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StadiumService.cs",
-              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Services\\Implements\\StadiumService.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Implements\\StadiumService.cs",
               "RelativeDocumentMoniker": "FP.BL\\Services\\Implements\\StadiumService.cs",
-              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Services\\Implements\\StadiumService.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Implements\\StadiumService.cs",
               "RelativeToolTip": "FP.BL\\Services\\Implements\\StadiumService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAADEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T00:27:17.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StadiumProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Profiles\\StadiumProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Profiles\\StadiumProfile.cs",
               "RelativeDocumentMoniker": "FP.BL\\Profiles\\StadiumProfile.cs",
-              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP\\FP.BL\\Profiles\\StadiumProfile.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Profiles\\StadiumProfile.cs",
               "RelativeToolTip": "FP.BL\\Profiles\\StadiumProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T00:21:51.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T00:21:51.865Z"
             }
           ]
         }

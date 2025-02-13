@@ -4203,11 +4203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\FP.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.DAL\\FP.DAL.csproj",
       "projectName": "FP.DAL",
-      "projectPath": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\FP.DAL.csproj",
+      "projectPath": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.DAL\\FP.DAL.csproj",
       "packagesPath": "C:\\Users\\Farid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Farid\\Desktop\\FP\\FP.DAL\\obj\\",
+      "outputPath": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4228,8 +4228,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\FP.Core.csproj": {
-              "projectPath": "C:\\Users\\Farid\\Desktop\\FP\\FP.Core\\FP.Core.csproj"
+            "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.Core\\FP.Core.csproj": {
+              "projectPath": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.Core\\FP.Core.csproj"
             }
           }
         }
