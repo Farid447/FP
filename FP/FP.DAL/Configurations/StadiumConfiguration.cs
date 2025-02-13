@@ -15,12 +15,19 @@ public class StadiumConfiguration : IEntityTypeConfiguration<Stadium>
             .IsRequired()
             .HasMaxLength(32);
 
+        builder.Property(x => x.PhoneNumber)
+            .IsRequired()
+            .HasMaxLength(32);
+
         builder.Property(x => x.Address)
             .IsRequired()
             .HasMaxLength(128);
 
         builder.Property(x => x.LocationLink)
             .IsRequired()
+            .HasMaxLength(128);
+
+        builder.Property(x=>x.Description)
             .HasMaxLength(128);
 
         builder.Property(x=>x.StadiumCount)

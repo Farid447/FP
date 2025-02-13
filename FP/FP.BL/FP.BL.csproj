@@ -17,9 +17,4 @@
     <ProjectReference Include="..\FP.DAL\FP.DAL.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\Interfaces\" />
-    <Folder Include="Services\Implements\" />
-  </ItemGroup>
-
 </Project>

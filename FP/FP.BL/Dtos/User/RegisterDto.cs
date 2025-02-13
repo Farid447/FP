@@ -11,7 +11,7 @@ public class RegisterDto
     public string Email { get; set; }
 
     [Required, MaxLength(32)]
-    public string Number { get; set; }
+    public string PhoneNumber { get; set; }
 
     [Required, MaxLength(32), DataType(DataType.Password)]
     public string Password { get; set; }

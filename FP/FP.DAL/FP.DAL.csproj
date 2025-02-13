@@ -18,8 +18,4 @@
     <ProjectReference Include="..\FP.Core\FP.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
-
 </Project>

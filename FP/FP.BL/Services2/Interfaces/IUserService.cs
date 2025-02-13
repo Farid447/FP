@@ -1,7 +1,6 @@
-using BlogApp.BL.DTOs.UserDtos;
-using BlogApp.Core.Entities;
+using FP.BL.Dtos.User;
 
-namespace BlogApp.BL.Services.Interfaces;
+namespace FP.BL.Services.Interfaces;
 
 public interface IUserService
 {
