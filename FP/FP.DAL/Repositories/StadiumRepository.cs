@@ -2,10 +2,11 @@
 using FP.Core.Repositories;
 using FP.DAL.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
 
 namespace FP.DAL.Repositories;
 
-public class StadiumRepository(FPDbContext context) : GenericRepository<Stadium>(context), IStadiumRepository
+public class StadiumRepository(FPDbContext context, ) : GenericRepository<Stadium>(context), IStadiumRepository
 {
     public async Task<Stadium> GetByNameAsync(string name)
     {

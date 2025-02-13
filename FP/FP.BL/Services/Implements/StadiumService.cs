@@ -7,10 +7,6 @@ using FP.BL.Services.Interfaces;
 using FP.Core.Entities;
 using FP.Core.Repositories;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.Identity.Client;
 
 namespace FP.BL.Services.Implements;
 
@@ -37,11 +33,11 @@ public class StadiumService(IStadiumRepository _repo, IWebHostEnvironment _env, 
         Stadium stadium = _mapper.Map<Stadium>(dto);
         
         if(dto.Image != null) 
-            stadium.ImageUrl = dto.Image.UploadAsync().Result;
+            stadium.ImageUrl = dto.Image.UploadAsync(_env.WebRootPath, "imgs").Result;
 
         if (dto.Images != null)
         {
-            stadium.ImageUrls = dto.Images.Select(x => x.UploadAsync().Result);
+            stadium.ImageUrls = dto.Images.Select(x => x.UploadAsync(_env.WebRootPath, "imgs").Result);
         }
 
         await _repo.AddAsync(stadium);
@@ -51,7 +47,17 @@ public class StadiumService(IStadiumRepository _repo, IWebHostEnvironment _env, 
     {
         Stadium? stadium = await _repo.GetByIdAsync(id);
         if (stadium != null)
+        {
+            if(stadium.ImageUrl != "Default.png")
+            {
+                stadium.ImageUrl.DeleteImage(_env.WebRootPath, "imgs");
+            }
+            foreach(var item in stadium.ImageUrls)
+            {
+                item.DeleteImage(_env.WebRootPath, "imgs");
+            }
             await _repo.DeleteAsync(stadium);
+        }
     }
 
 

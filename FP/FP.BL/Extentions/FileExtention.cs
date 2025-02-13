@@ -28,4 +28,13 @@ public static class FileExtention
 
         return filename;
     }
+
+    public static void DeleteImage(this string imagename, params string[] path)
+    {
+        string deletepath = Path.Combine(path);
+        if (System.IO.File.Exists(Path.Combine(deletepath, imagename)))
+        {
+            System.IO.File.Delete(Path.Combine(deletepath, imagename));
+        }
+    }
 }
