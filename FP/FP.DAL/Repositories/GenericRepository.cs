@@ -30,12 +30,17 @@ public class GenericRepository<T>(FPDbContext _context) : IGenericRepository<T> 
     {
         T? entity = await Table.FindAsync(id);
         if (entity == null)
-            return null!;
+            return null;
         return entity;
     }
 
     public async Task<IEnumerable<T>> GetWhereAsync(Expression<Func<T, bool>> expression)
     {
         return await Table.Where(expression).ToListAsync();
+    }
+
+    public async Task SaveAsync()
+    {
+        await _context.SaveChangesAsync();
     }
 }

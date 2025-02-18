@@ -18,7 +18,7 @@ public class ReservationConfiguration : IEntityTypeConfiguration<Reservation>
             .IsRequired()
             .HasMaxLength(20);
 
-        builder.Property(x => x.StadiumNumber)
+        builder.Property(x => x.PitchNumber)
             .IsRequired()
             .HasMaxLength(5);
 

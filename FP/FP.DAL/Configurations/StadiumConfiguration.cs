@@ -30,7 +30,7 @@ public class StadiumConfiguration : IEntityTypeConfiguration<Stadium>
         builder.Property(x=>x.Description)
             .HasMaxLength(128);
 
-        builder.Property(x=>x.StadiumCount)
+        builder.Property(x=>x.PitchCount)
             .HasMaxLength(5);
 
         builder.Property(x => x.RoomCount)

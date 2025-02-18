@@ -1,4 +1,6 @@
+using FP.BL;
 using FP.Core.Entities;
+using FP.DAL;
 using FP.DAL.Context;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +20,10 @@ public class Program
         {
             opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"));
         });
+
+        builder.Services.AddRepositories();
+        builder.Services.AddServices();
+
 
         builder.Services.AddIdentity<User, IdentityRole>(opt =>
         {
@@ -41,9 +47,8 @@ public class Program
         }
 
         app.UseHttpsRedirection();
-
+        app.UseAuthentication();
         app.UseAuthorization();
-
         app.MapControllers();
 
         app.Run();

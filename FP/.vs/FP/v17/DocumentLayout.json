@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\services\\implements\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\services\\implements\\stadiumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\services\\implements\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A4ABF6-8BC6-4B19-B794-497A73270743}|FP.DAL\\FP.DAL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.dal\\repositories\\stadiumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A4ABF6-8BC6-4B19-B794-497A73270743}|FP.DAL\\FP.DAL.csproj|solutionrelative:fp.dal\\repositories\\stadiumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\extentions\\fileextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\extentions\\fileextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp.bl\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F70C78-C75D-485A-822D-9954980CBAF8}|FP.BL\\FP.BL.csproj|solutionrelative:fp.bl\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,46 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileExtention.cs",
-              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Extentions\\FileExtention.cs",
-              "RelativeDocumentMoniker": "FP.BL\\Extentions\\FileExtention.cs",
-              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Extentions\\FileExtention.cs",
-              "RelativeToolTip": "FP.BL\\Extentions\\FileExtention.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAABDAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Implements\\AuthService.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Services\\Implements\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Implements\\AuthService.cs",
+              "RelativeToolTip": "FP.BL\\Services\\Implements\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:13:03.223Z",
+              "WhenOpened": "2025-02-18T18:05:34.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StadiumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.DAL\\Repositories\\StadiumRepository.cs",
-              "RelativeDocumentMoniker": "FP.DAL\\Repositories\\StadiumRepository.cs",
-              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.DAL\\Repositories\\StadiumRepository.cs",
-              "RelativeToolTip": "FP.DAL\\Repositories\\StadiumRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FP.BL\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "FP.BL\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:20:43.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StadiumService.cs",
-              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Implements\\StadiumService.cs",
-              "RelativeDocumentMoniker": "FP.BL\\Services\\Implements\\StadiumService.cs",
-              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP.BL\\Services\\Implements\\StadiumService.cs",
-              "RelativeToolTip": "FP.BL\\Services\\Implements\\StadiumService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEEAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T00:27:17.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T18:05:33.305Z"
             }
           ]
         }

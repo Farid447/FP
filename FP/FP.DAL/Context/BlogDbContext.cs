@@ -6,7 +6,6 @@ namespace FP.DAL.Context;
 
 public class FPDbContext : IdentityDbContext<User>
 {
-    public DbSet<User> Users { get; set; }
     public DbSet<Stadium> Stadiums { get; set; }
     public DbSet<Reservation> Reservations { get; set; }
 

@@ -8,7 +8,7 @@ public class Reservation : BaseEntity
     public User? User { get; set; }
     public int? SdadiumId { get; set; }
     public Stadium? Stadium { get; set; }
-    public int StadiumNumber { get; set; }
+    public int PitchNumber { get; set; }
     public int RoomNumber { get; set; }
     public DateTime ReservationDate { get; set; }
 }

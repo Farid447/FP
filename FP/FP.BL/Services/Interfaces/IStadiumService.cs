@@ -7,6 +7,7 @@ public interface IStadiumService
 {
     Task<IEnumerable<Stadium>> GetAllAsync();
     Task CreateAsync(StadiumCreateDto dto);
-    Task UpdateAsync(StadiumUpdateDto dto);
+    Task UpdateAsync(int id, StadiumUpdateDto dto);
     Task DeleteAsync(int id);
+    Task DeleteImgs(IEnumerable<string> imgs);
 }
