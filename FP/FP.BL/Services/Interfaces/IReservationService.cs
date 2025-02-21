@@ -10,4 +10,5 @@ public interface IReservationService
     Task CreateAsync(ReservationCreateDto dto);
     Task UpdateAsync(int id, ReservationUpdateDto dto);
     Task DeleteAsync(int id);
+    Task ToggleAsync(int id);
 }

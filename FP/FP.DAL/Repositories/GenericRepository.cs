@@ -28,10 +28,7 @@ public class GenericRepository<T>(FPDbContext _context) : IGenericRepository<T> 
 
     public async Task<T> GetByIdAsync(int id)
     {
-        T? entity = await Table.FindAsync(id);
-        if (entity == null)
-            return null;
-        return entity;
+        return await Table.FindAsync(id);
     }
 
     public async Task<IEnumerable<T>> GetWhereAsync(Expression<Func<T, bool>> expression)
@@ -41,6 +38,16 @@ public class GenericRepository<T>(FPDbContext _context) : IGenericRepository<T> 
 
     public async Task SaveAsync()
     {
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task ToggleAsync(int id)
+    {
+        var entity = await Table.FindAsync(id);
+        
+        if (entity != null)
+            entity.IsDeleted = !entity.IsDeleted;
+
         await _context.SaveChangesAsync();
     }
 }

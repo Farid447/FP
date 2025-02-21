@@ -41,4 +41,8 @@ public class ReservationService(IReservationRepository _repo, IMapper _mapper) :
             await _repo.DeleteAsync(Reservation);
         }
     }
+    public async Task ToggleAsync(int id)
+    {
+        await _repo.ToggleAsync(id);
+    }
 }

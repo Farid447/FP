@@ -28,12 +28,14 @@ public class Program
         builder.Services.AddIdentity<User, IdentityRole>(opt =>
         {
             opt.User.RequireUniqueEmail = true;
+            opt.SignIn.RequireConfirmedEmail = false;
             opt.Password.RequiredLength = 8;
             opt.Password.RequireNonAlphanumeric = false;
             opt.Password.RequireDigit = false;
             opt.Password.RequireLowercase = false;
             opt.Password.RequireUppercase = false;
             opt.Lockout.MaxFailedAccessAttempts = 10;
+            opt.Lockout.DefaultLockoutTimeSpan = new TimeSpan(30000);
         }).AddDefaultTokenProviders().AddEntityFrameworkStores<FPDbContext>();
 
         builder.Services.AddAutoMapper(typeof(Program));
@@ -45,6 +47,8 @@ public class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
+        app.AddExceptionHandler();
 
         app.UseHttpsRedirection();
         app.UseAuthentication();

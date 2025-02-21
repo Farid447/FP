@@ -36,12 +36,10 @@ public class StadiumService(IStadiumRepository _repo, IWebHostEnvironment _env, 
             stadium.ImageUrl = dto.Image.UploadAsync(_env.WebRootPath, "imgs").Result;
 
         if (dto.Images != null)
-            stadium.ImageUrls = dto.Images.Select(x => x.UploadAsync(_env.WebRootPath, "imgs").Result);
+            stadium.ImageUrls = (List<string>)dto.Images.Select(x => x.UploadAsync(_env.WebRootPath, "imgs").Result);
 
         await _repo.AddAsync(stadium);
     }
-
-
 
     public async Task UpdateAsync(int id, StadiumUpdateDto dto)
     {
@@ -69,6 +67,7 @@ public class StadiumService(IStadiumRepository _repo, IWebHostEnvironment _env, 
         _mapper.Map(dto, stadium);
         await _repo.SaveAsync();
     }
+
     public async Task DeleteAsync(int id)
     {
         Stadium? stadium = await _repo.GetByIdAsync(id);
@@ -95,5 +94,10 @@ public class StadiumService(IStadiumRepository _repo, IWebHostEnvironment _env, 
             }
             item.DeleteImage(_env.WebRootPath, "imgs");
         }
+    }
+
+    public async Task ToggleAsync(int id)
+    {
+        await _repo.ToggleAsync(id);
     }
 }

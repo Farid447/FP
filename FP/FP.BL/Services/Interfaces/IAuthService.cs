@@ -9,7 +9,7 @@ namespace FP.BL.Services.Interfaces
 {
     public interface IAuthService
     {
-        public Task LoginAsync(LoginDto dto);
         public Task RegisterAsync(RegisterDto dto);
+        public Task LoginAsync(LoginDto dto);
     }
 }
