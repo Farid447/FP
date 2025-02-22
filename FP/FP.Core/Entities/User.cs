@@ -8,4 +8,5 @@ public class User : IdentityUser
     public string FIN { get; set; }
     public string ImageUrl { get; set; } = "Default.png";
     public IEnumerable<Reservation>? Reservations { get; set; }
+    public IEnumerable<Rating>? Ratings { get; set; }
 }

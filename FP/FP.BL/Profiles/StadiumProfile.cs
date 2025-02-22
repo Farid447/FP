@@ -11,6 +11,5 @@ public class StadiumProfile : Profile
         CreateMap<Stadium, StadiumCreateDto>()
             .ForMember(x => x.Description, y => y.MapFrom(t => t.Description ?? ""));
         CreateMap<Stadium, StadiumUpdateDto>().ReverseMap();
-
     }
 }

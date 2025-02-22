@@ -3,3 +3,21 @@ C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.GeneratedMSBuildEditorCon
 C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.AssemblyInfoInputs.cache
 C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.AssemblyInfo.cs
 C:\Users\Farid\Desktop\FP\FP.BL\obj\Debug\net8.0\FP.BL.csproj.CoreCompileInputs.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.BL.deps.json
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.BL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.BL.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.Core.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.DAL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.DAL.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\bin\Debug\net8.0\FP.Core.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.csproj.AssemblyReference.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.AssemblyInfoInputs.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.AssemblyInfo.cs
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.csproj.CoreCompileInputs.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.sourcelink.json
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.csproj.Up2Date
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\refint\FP.BL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\FP.BL.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.BL\obj\Debug\net8.0\ref\FP.BL.dll

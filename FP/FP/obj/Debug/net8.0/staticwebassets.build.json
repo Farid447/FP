@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "f8lMouJwuMTbODGTfIGHewZbNrNz64EJUdFqix+4H/U=",
+  "Source": "FP",
+  "BasePath": "_content/FP",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FP\\wwwroot",
+      "Source": "FP",
+      "ContentRoot": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\wwwroot\\",
+      "BasePath": "_content/FP",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

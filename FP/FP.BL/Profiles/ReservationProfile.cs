@@ -10,6 +10,5 @@ public class ReservationProfile : Profile
     {
         CreateMap<ReservationCreateDto, Reservation>();
         CreateMap<ReservationUpdateDto, Reservation>().ReverseMap();
-
     }
 }

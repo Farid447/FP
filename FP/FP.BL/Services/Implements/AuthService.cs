@@ -8,9 +8,7 @@ using FP.Core.Enums;
 using FP.DAL.Context;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace FP.BL.Services.Implements;
 

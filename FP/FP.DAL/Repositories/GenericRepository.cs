@@ -31,6 +31,11 @@ public class GenericRepository<T>(FPDbContext _context) : IGenericRepository<T> 
         return await Table.FindAsync(id);
     }
 
+    public async Task<T?> GetFirstAsync(Expression<Func<T, bool>> expression)
+    {
+        return await Table.FirstOrDefaultAsync(expression);
+    }
+
     public async Task<IEnumerable<T>> GetWhereAsync(Expression<Func<T, bool>> expression)
     {
         return await Table.Where(expression).ToListAsync();

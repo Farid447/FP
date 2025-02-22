@@ -3,3 +3,21 @@ C:\Users\Farid\Desktop\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.GeneratedMSBuildEditorC
 C:\Users\Farid\Desktop\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.AssemblyInfoInputs.cache
 C:\Users\Farid\Desktop\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.AssemblyInfo.cs
 C:\Users\Farid\Desktop\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\bin\Debug\net8.0\FP.DAL.deps.json
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\bin\Debug\net8.0\FP.DAL.runtimeconfig.json
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\bin\Debug\net8.0\FP.DAL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\bin\Debug\net8.0\FP.DAL.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\bin\Debug\net8.0\FP.Core.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\bin\Debug\net8.0\FP.Core.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.csproj.AssemblyReference.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.AssemblyInfoInputs.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.AssemblyInfo.cs
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.sourcelink.json
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.csproj.Up2Date
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\refint\FP.DAL.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.pdb
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\FP.DAL.genruntimeconfig.cache
+C:\Users\Farid\Desktop\FP repo\FP\FP.DAL\obj\Debug\net8.0\ref\FP.DAL.dll

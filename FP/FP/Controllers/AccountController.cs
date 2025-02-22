@@ -1,5 +1,6 @@
 ﻿using FP.BL.Dtos.User;
 using FP.BL.Exceptions.Common;
+using FP.BL.Services.Interfaces;
 using FP.Core.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -10,7 +11,7 @@ namespace FP.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AccountController(SignInManager<User> _signInManager) : ControllerBase
+    public class AccountController(SignInManager<User> _signInManager, IAuthService _service) : ControllerBase
     {
         private bool isAuthenticated => HttpContext.User.Identity?.IsAuthenticated ?? false;
         public async Task<IActionResult> Register(RegisterDto dto)
@@ -21,6 +22,7 @@ namespace FP.Controllers
             if (isAuthenticated)
                 throw new InvalidException("you alread logged in");
 
+            await _service.RegisterAsync(dto);
             return Ok();
         }
 
@@ -29,6 +31,7 @@ namespace FP.Controllers
             if (isAuthenticated)
                 throw new InvalidException("you alread logged in");
 
+            await _service.LoginAsync(dto);
             return Ok();
         }
 

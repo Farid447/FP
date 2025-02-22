@@ -13,5 +13,6 @@ public class Stadium : BaseEntity
     public int PitchCount { get; set; } = 1;
     public string ImageUrl { get; set; } = "Default.png";
     public List<string> ImageUrls { get; set; } = [];
-    public IEnumerable<Reservation>? Reservations {  get; set; } 
+    public IEnumerable<Reservation>? Reservations {  get; set; }
+    public IEnumerable<Rating>? Ratings { get; set; }
 }

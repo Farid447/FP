@@ -10,10 +10,6 @@ public class ReservationConfiguration : IEntityTypeConfiguration<Reservation>
     {
         builder.HasKey(x => x.Id);
 
-        builder.Property(x=>x.Name)
-            .IsRequired()
-            .HasMaxLength(16);
-
         builder.Property(x=>x.RoomNumber)
             .IsRequired()
             .HasMaxLength(20);
@@ -28,6 +24,6 @@ public class ReservationConfiguration : IEntityTypeConfiguration<Reservation>
 
         builder.HasOne(x => x.Stadium)
             .WithMany(x => x.Reservations)
-            .HasForeignKey(x => x.SdadiumId);
+            .HasForeignKey(x => x.StadiumId);
     }
 }

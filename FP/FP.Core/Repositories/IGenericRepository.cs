@@ -6,6 +6,7 @@ namespace FP.Core.Repositories;
 public interface IGenericRepository<T> where T : BaseEntity, new()
 {
     Task<T> GetByIdAsync(int id);
+    Task<T?> GetFirstAsync(Expression<Func<T, bool>> expression);
     Task<IEnumerable<T>> GetWhereAsync(Expression<Func<T, bool>> expression);
     Task<IEnumerable<T>> GetAllAsync();
     Task AddAsync(T entity);
