@@ -1,7 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using FP.BL.Constants;
 using FP.BL.Dtos.Options;
 using FP.BL.ExternalServices.Interfaces;
 using FP.Core.Entities;
@@ -21,9 +20,9 @@ public class JwtTokenHandler : IJwtTokenHandler
     {
         List<Claim> claims = [
             new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-            new Claim(ClaimType.FullName, user.FullName),
+            new Claim(ClaimTypes.Name, user.FullName),
             new Claim(ClaimTypes.Email, user.Email!),
-            new Claim(ClaimType.Role, role),
+            new Claim(ClaimTypes.Role, role),
         ];
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(opt.SecretKey));
         SigningCredentials cred = new(key, SecurityAlgorithms.HmacSha256);

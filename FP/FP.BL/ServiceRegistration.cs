@@ -1,6 +1,6 @@
-using FluentValidation;
-using FluentValidation.AspNetCore;
 using FP.BL.Exceptions;
+using FP.BL.ExternalServices.Implements;
+using FP.BL.ExternalServices.Interfaces;
 using FP.BL.Services.Implements;
 using FP.BL.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -16,7 +16,10 @@ public static class ServiceRegistration
     {
         services.AddScoped<IStadiumService, StadiumService>();
         services.AddScoped<IReservationService, ReservationService>();
+        services.AddScoped<IRatingService, RatingService>();
         services.AddScoped<IAuthService, AuthService>();
+        services.AddScoped<IJwtTokenHandler, JwtTokenHandler>();
+
         return services;
     }
 

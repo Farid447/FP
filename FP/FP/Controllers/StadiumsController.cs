@@ -7,6 +7,7 @@ namespace FP.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class StadiumsController(IStadiumService _service) : ControllerBase
 {
     [HttpGet]

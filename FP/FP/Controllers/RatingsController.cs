@@ -7,10 +7,10 @@ namespace FP.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class RatingsController(IRatingService _service) : ControllerBase
 {
     [HttpGet]
-    [Authorize]
     public async Task<IActionResult> Get()
     {
         return Ok(await _service.GetAllAsync());
