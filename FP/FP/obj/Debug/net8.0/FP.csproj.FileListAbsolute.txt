@@ -167,3 +167,4 @@ C:\Users\Farid\Desktop\FP repo\FP\FP\obj\Debug\net8.0\refint\FP.dll
 C:\Users\Farid\Desktop\FP repo\FP\FP\obj\Debug\net8.0\FP.pdb
 C:\Users\Farid\Desktop\FP repo\FP\FP\obj\Debug\net8.0\FP.genruntimeconfig.cache
 C:\Users\Farid\Desktop\FP repo\FP\FP\obj\Debug\net8.0\ref\FP.dll
+C:\Users\Farid\Desktop\FP repo\FP\FP\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

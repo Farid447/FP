@@ -4,7 +4,7 @@ namespace FP.Core.Entities;
 
 public class Reservation : BaseEntity
 {
-    public int? UserId { get; set; }
+    public string? UserId { get; set; }
     public User? User { get; set; }
     public int? StadiumId { get; set; }
     public Stadium? Stadium { get; set; }

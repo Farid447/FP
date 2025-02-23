@@ -17,6 +17,7 @@ public class RegisterDto
     [Required, MaxLength(32)]
     public string PhoneNumber { get; set; }
     public IFormFile? Image { get; set; }
+    public IFormFile PassportImage { get; set; }
 
     [Required, MaxLength(32), DataType(DataType.Password)]
     public string Password { get; set; }

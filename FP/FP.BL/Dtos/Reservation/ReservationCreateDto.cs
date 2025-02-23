@@ -4,7 +4,6 @@ namespace FP.BL.Dtos.Reservation;
 
 public class ReservationCreateDto
 {
-    public int UserId { get; set; }
     public int StadiumId { get; set; }
 
     [Required, MaxLength(5)]

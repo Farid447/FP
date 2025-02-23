@@ -65,6 +65,7 @@ public class StadiumService(IStadiumRepository _repo, IWebHostEnvironment _env, 
                 stadium.ImageUrls.Append(item.UploadAsync(_env.WebRootPath, "imgs").Result);        
 
         _mapper.Map(dto, stadium);
+        stadium.UpdatedTime = DateTime.Now;
         await _repo.SaveAsync();
     }
 
