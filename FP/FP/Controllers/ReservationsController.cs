@@ -21,7 +21,7 @@ public class ReservationsController(IReservationService _service) : ControllerBa
         await _service.CreateAsync(dto);
         return Ok();
     }
-    [HttpPut("{id}")]
+    [HttpPut]
     public async Task<IActionResult> Put(int id, ReservationUpdateDto dto)
     {
         await _service.UpdateAsync(id, dto);

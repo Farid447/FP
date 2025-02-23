@@ -22,7 +22,7 @@ public class StadiumsController(IStadiumService _service) : ControllerBase
         await _service.CreateAsync(dto);
         return Ok();
     }
-    [HttpPut("{id}")]
+    [HttpPut]
     public async Task<IActionResult> Put(int id, StadiumUpdateDto dto)
     {
         await _service.UpdateAsync(id, dto);

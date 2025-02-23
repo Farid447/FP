@@ -14,7 +14,9 @@ namespace FP.Controllers
     public class AccountController(SignInManager<User> _signInManager, IAuthService _service) : ControllerBase
     {
         private bool isAuthenticated => HttpContext.User.Identity?.IsAuthenticated ?? false;
-        public async Task<IActionResult> Register(RegisterDto dto)
+
+        [HttpPost("[action]")]
+        public async Task<IActionResult> Register( RegisterDto dto)
         {
             //if (!ModelState.IsValid) {
             //    ModelState.AddModelError("", "");
@@ -26,6 +28,8 @@ namespace FP.Controllers
             return Ok();
         }
 
+
+        [HttpPost("[action]")]
         public async Task<IActionResult> Login(LoginDto dto)
         {
             if (isAuthenticated)
@@ -36,6 +40,7 @@ namespace FP.Controllers
         }
 
         [Authorize]
+        [HttpGet]
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

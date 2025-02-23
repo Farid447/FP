@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|solutionrelative:fp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|solutionrelative:fp\\controllers\\stadiumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|solutionrelative:fp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|c:\\users\\farid\\desktop\\fp repo\\fp\\fp\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2B88975-D206-4D15-B5BC-82E351F9E2B9}|FP\\FP.csproj|solutionrelative:fp\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "FP\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "FP\\Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T20:16:35.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StadiumsController.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\StadiumsController.cs",
+              "RelativeDocumentMoniker": "FP\\Controllers\\StadiumsController.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\StadiumsController.cs",
+              "RelativeToolTip": "FP\\Controllers\\StadiumsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T20:16:22.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "FP\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\RatingsController.cs",
+              "RelativeToolTip": "FP\\Controllers\\RatingsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T20:16:02.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "FP\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Farid\\Desktop\\FP repo\\FP\\FP\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "FP\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T20:15:00.651Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

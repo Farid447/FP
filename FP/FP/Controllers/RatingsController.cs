@@ -21,7 +21,7 @@ public class RatingsController(IRatingService _service) : ControllerBase
         await _service.CreateAsync(dto);
         return Ok();
     }
-    [HttpPut("{id}")]
+    [HttpPut]
     public async Task<IActionResult> Put(int id, RatingUpdateDto dto)
     {
         await _service.UpdateAsync(id, dto);

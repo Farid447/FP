@@ -11,6 +11,7 @@ public static class ServiceRegistration
     {
         services.AddScoped<IStadiumRepository, StadiumRepository>();
         services.AddScoped<IReservationRepository, ReservationRepository>();
+        services.AddScoped<IRatingRepository, RatingRepository>();
         return services;
     }
 }

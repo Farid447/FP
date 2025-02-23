@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using FP.BL.Dtos.Rating;
-using FP.BL.Dtos.Rating;
 using FP.BL.Exceptions.Common;
 using FP.BL.Services.Interfaces;
 using FP.Core.Entities;
@@ -10,7 +9,7 @@ using System.Security.Claims;
 
 namespace FP.BL.Services.Implements;
 
-public class RatingService(IGenericRepository<Rating> _repo, IMapper _mapper, IHttpContextAccessor _httpContext) : IRatingService
+public class RatingService(IRatingRepository _repo, IMapper _mapper, IHttpContextAccessor _httpContext) : IRatingService
 {
     private readonly HttpContext _httpcontext = _httpContext.HttpContext!;
 
