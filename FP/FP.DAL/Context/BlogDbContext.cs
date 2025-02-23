@@ -8,8 +8,12 @@ public class FPDbContext : IdentityDbContext<User>
 {
     public DbSet<Stadium> Stadiums { get; set; }
     public DbSet<Reservation> Reservations { get; set; }
+    public DbSet<Rating> Ratings { get; set; }
 
-    public FPDbContext(DbContextOptions opt) : base(opt){}
+    public FPDbContext(DbContextOptions opt) : base(opt)
+    {
+        
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
