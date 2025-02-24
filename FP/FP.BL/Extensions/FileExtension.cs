@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace FP.BL.Extentions;
+namespace FP.BL.Extensions;
 
-public static class FileExtention
+public static class FileExtension
 {
     public const string Type = "image";
     public const int Size = 1;

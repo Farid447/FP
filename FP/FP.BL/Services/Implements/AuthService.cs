@@ -2,7 +2,7 @@
 using FP.BL.Dtos.User;
 using FP.BL.Exceptions.Common;
 using FP.BL.Exceptions.FileExceptions;
-using FP.BL.Extentions;
+using FP.BL.Extensions;
 using FP.BL.ExternalServices.Interfaces;
 using FP.BL.Services.Interfaces;
 using FP.Core.Entities;
@@ -16,9 +16,10 @@ using System.Security.Claims;
 
 namespace FP.BL.Services.Implements;
 
-public class AuthService(UserManager<User> _userManager, SignInManager<User> _signInManager,
-    IMapper _mapper, IWebHostEnvironment _env, IJwtTokenHandler _jwtTokenHandler,
-    IHttpContextAccessor _httpContext, FPDbContext _context) : IAuthService
+public class AuthService(UserManager<User> _userManager,
+    SignInManager<User> _signInManager, IMapper _mapper,
+    IWebHostEnvironment _env, IJwtTokenHandler _jwtTokenHandler,
+    IHttpContextAccessor _httpContext) : IAuthService
 {
     private readonly HttpContext _httpcontext = _httpContext.HttpContext!;
     public async Task RegisterAsync(RegisterDto dto)
@@ -66,7 +67,7 @@ public class AuthService(UserManager<User> _userManager, SignInManager<User> _si
                 ?? throw new InvalidException("Email is wrong");
 
         else if (dto.EmailorFIN.Length == 7)
-            user = await _context.Users.FirstOrDefaultAsync(x => x.FIN == dto.EmailorFIN)
+            user = await _userManager.Users.FirstOrDefaultAsync(x => x.FIN == dto.EmailorFIN)
                 ?? throw new InvalidException("FIN is wrong");
 
         else
@@ -97,7 +98,7 @@ public class AuthService(UserManager<User> _userManager, SignInManager<User> _si
         }
 
         var userId = _httpcontext.User.FindFirst(x => x.Type == ClaimTypes.NameIdentifier)?.Value;
-        var user = await _context.Users.FindAsync(userId) ?? throw new InvalidException("User not found!");
+        var user = await _userManager.Users.FirstOrDefaultAsync(x=>x.Id == userId) ?? throw new InvalidException("User not found!");
 
         if (dto.Image != null)
             user.ImageUrl = dto.Image.UploadAsync(_env.WebRootPath, "Imgs").Result;
@@ -106,6 +107,6 @@ public class AuthService(UserManager<User> _userManager, SignInManager<User> _si
             user.PassportImageUrl = dto.PassportImage.UploadAsync(_env.WebRootPath, "Imgs", "PassportImgs").Result;
 
         _mapper.Map(dto, user);
-        await _context.SaveChangesAsync();
+        //await _context.SaveChangesAsync();
     }
 }

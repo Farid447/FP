@@ -2,7 +2,7 @@
 using FP.BL.Dtos.Stadium;
 using FP.BL.Exceptions.Common;
 using FP.BL.Exceptions.FileExceptions;
-using FP.BL.Extentions;
+using FP.BL.Extensions;
 using FP.BL.Services.Interfaces;
 using FP.Core.Entities;
 using FP.Core.Repositories;

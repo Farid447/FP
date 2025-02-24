@@ -1,4 +1,4 @@
-﻿using FP.BL.Extentions;
+﻿using FP.BL.Extensions;
 using Microsoft.AspNetCore.Http;
 
 namespace FP.BL.Exceptions.FileExceptions;
@@ -10,7 +10,7 @@ public class TypeorSizeValidException : Exception, IBaseException
 
     public TypeorSizeValidException()
     {
-        ErrorMessage = $"File type must be {FileExtention.Type}, File size must be less than {FileExtention.Size} mb";
+        ErrorMessage = $"File type must be {FileExtension.Type}, File size must be less than {FileExtension.Size} mb";
     }
 
     public TypeorSizeValidException(string message) : base(message)

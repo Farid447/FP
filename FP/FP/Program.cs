@@ -1,4 +1,5 @@
 using FP.BL;
+using FP.BL.Extensions;
 using FP.Core.Entities;
 using FP.DAL;
 using FP.DAL.Context;
@@ -80,6 +81,7 @@ public class Program
         app.UseHttpsRedirection();
         app.UseAuthentication();
         app.UseAuthorization();
+        app.UseUserSeed();
         app.MapControllers();
 
         app.Run();
